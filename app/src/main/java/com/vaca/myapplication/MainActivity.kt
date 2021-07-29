@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val gaga:TextView=findViewById(R.id.fuck)
         gaga.setOnClickListener {
-            Ca.customDialog(this,R.layout.dialog,R.style.showDialog,Gravity.LEFT,WindowManager.LayoutParams.WRAP_CONTENT,WindowManager.LayoutParams.WRAP_CONTENT,R.style.AnimLeft)
+            Ca.customDialog(this,R.layout.dialog,R.style.showDialog,Gravity.LEFT+Gravity.TOP,WindowManager.LayoutParams.WRAP_CONTENT,WindowManager.LayoutParams.WRAP_CONTENT,R.style.AnimLeft)
             MainScope().launch {
                 delay(5000)
                 Ca.fuck()

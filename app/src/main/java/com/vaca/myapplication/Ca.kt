@@ -36,7 +36,10 @@ object Ca {
         if (layoutParams != null) {
             layoutParams.height = height
         }
-        //        layoutParams.y = 180;//距离顶部的距离
+        if (layoutParams != null) {
+            layoutParams.x=40
+            layoutParams.y =40
+        };//距离顶部的距离
       dialog?.apply {
           window?.attributes = layoutParams
           window?.setGravity(gravity)

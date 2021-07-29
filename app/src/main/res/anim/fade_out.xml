@@ -3,8 +3,8 @@
     android:duration="3000">
 
     <translate
-        android:fromXDelta="0"
-        android:toXDelta="-100%" />
+        android:fromXDelta="0%"
+        android:toXDelta="-120%" />
 
     <!--    <scale-->
     <!--        android:fromXScale="1"-->
